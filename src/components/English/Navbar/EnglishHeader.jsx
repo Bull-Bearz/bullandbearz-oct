@@ -513,8 +513,12 @@ const EnglishHeader = () => {
       </Typography>
    </Link>
 )}
+
+
       {/* <Link href={language ===  'english' ?'/financial' : '/financialArabic'} style={{textDecoration:'none'}}><Typography  fontWeight='500' fontSize='15px' color='#fff' sx={{border: '1px solid rgba(44, 62, 80, 0.5)',paddingLeft:'0.5rem',paddingRight:'0.5rem',paddingTop:'0.2rem',paddingBottom:'0.2rem',cursor:'pointer',borderRadius:'8px','&:hover':{background:'#fff',color:'#000'}}}>Financial Health Clinic</Typography></Link> */}
-      <Link href={language ===  'english' ?'/subscription' : '/subscription'} style={{textDecoration:'none'}}><Typography  fontWeight='500' fontSize='15px' color='#fff' sx={{border: '1px solid rgba(44, 62, 80, 0.5)',paddingLeft:'0.5rem',paddingRight:'0.5rem',paddingTop:'0.2rem',paddingBottom:'0.2rem',cursor:'pointer',borderRadius:'8px','&:hover':{background:'#fff',color:'#000'}}}>Subscriptions</Typography></Link>
+{/*       
+      <Link href={language ===  'english' ?'/subscription' : '/subscription'} style={{textDecoration:'none'}}><Typography  fontWeight='500' fontSize='15px' color='#fff' sx={{border: '1px solid rgba(44, 62, 80, 0.5)',paddingLeft:'0.5rem',paddingRight:'0.5rem',paddingTop:'0.2rem',paddingBottom:'0.2rem',cursor:'pointer',borderRadius:'8px','&:hover':{background:'#fff',color:'#000'}}}>Subscriptions</Typography></Link> */}
+
       {/* <Link href={language === 'english' ? '/contact' :'/contact'} style={{textDecoration:'none'}}><Typography  fontWeight='500' fontSize='15px' color='#fff' sx={{border:'1px solid rgba(44, 62, 80, 0.5)',paddingLeft:'0.5rem',paddingRight:'0.5rem',paddingTop:'0.2rem',paddingBottom:'0.2rem',cursor:'pointer',borderRadius:'8px','&:hover':{background:'#fff',color:'#000'}}}>Connect with us</Typography></Link> */}
       </Box>
       : 
